@@ -14,7 +14,7 @@ springdockerapp/
 │   │   └── resources/
 │   └── test/
 │       └── java/
-├── target/ (ignorado por git)
+├── target/ 
 ```
 
 ## ¿Cómo ejecutar localmente?
