@@ -13,7 +13,12 @@ public class HelloRestController {
     private static final String template = "Hello, %s!";
 
     @GetMapping("/greeting")
-    public String greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
+    public String greeting(@RequestParam(value = "name", defaultValue = "Docker") String name) {
+        return String.format(template, name);
+    }
+
+    @GetMapping("/hello")
+    public String hello(@RequestParam(value = "name", defaultValue = "Docker") String name) {
         return String.format(template, name);
     }
 
