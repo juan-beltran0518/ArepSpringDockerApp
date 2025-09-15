@@ -1,0 +1,46 @@
+# Maven build artifacts
+target/
+!target/*.jar
+!target/classes/
+!target/classes/**
+!target/dependency/
+!target/dependency/**
+
+# Maven wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Documentation
+README.md
+*.md
+*.pdf
+*.xlsx
+
+# Test files
+src/test/
+
+# Build cache
+.m2/
