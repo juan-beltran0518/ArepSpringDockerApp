@@ -1,23 +1,10 @@
-FROM maven:3.9.4-openjdk-17 AS build
-
-WORKDIR /app
-
-COPY pom.xml .
-
-RUN mvn dependency:go-offline -B
-
-COPY src ./src
-
-RUN mvn clean package -DskipTests
-
-FROM openjdk:17-jre-slim
-
-WORKDIR /app
-
-COPY --from=build /app/target/springdockerapp-1.0.0.jar app.jar
-
-EXPOSE 8080
-
-ENV JAVA_OPTS="-Xmx512m -Xms256m"
-
-ENTRYPOINT ["sh", "-c", "java $JAVA_OPTS -jar app.jar"]
+FROM openjdk:17
+ 
+WORKDIR /usrapp/bin
+ 
+ENV PORT=6000
+ 
+COPY target/classes /usrapp/bin/classes
+COPY target/dependency /usrapp/bin/dependency
+ 
+CMD ["java","-cp","./classes:./dependency/*","co.edu.escuelaing.Application"]

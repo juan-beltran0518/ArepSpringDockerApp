@@ -1,6 +1,10 @@
 # Maven build artifacts
 target/
 !target/*.jar
+!target/classes/
+!target/classes/**
+!target/dependency/
+!target/dependency/**
 
 # Maven wrapper
 .mvn/
