@@ -255,12 +255,12 @@ volumes:
 ## Resultados del Despliegue
 
 ### 1. Aplicación Local
-![Ejecución Local](Imaganes/Screenshot%202025-09-14%20at%207.04.43%20PM.png)
+![Ejecución Local](Imaganes/1.png)
 
 **URL Local:** `http://localhost:4567/hello`
 
 ### 2. Docker Local
-![Docker Local](Imaganes/Screenshot%202025-09-14%20at%207.04.49%20PM.png)
+![Docker Local](Imaganes/2.png)
 
 **Comandos utilizados:**
 ```bash
@@ -270,33 +270,33 @@ docker run -d -p 34002:6000 --name firstdockercontainer3 dockersparkprimer
 ```
 
 ### 3. Docker Compose
-![Docker Compose](Imaganes/Screenshot%202025-09-14%20at%207.05.40%20PM.png)
+![Docker Compose](Imaganes/3.png)
 
 **Servicios levantados:**
 - Web Service (Puerto 8087)
 - MongoDB Service (Puerto 27017)
 
 ### 4. Despliegue AWS EC2
-![AWS Console](Imaganes/Screenshot%202025-09-14%20at%207.05.58%20PM.png)
+![AWS Console](Imaganes/4.png)
 
 **Configuración de la instancia:**
 
-![EC2 Details](Imaganes/Screenshot%202025-09-14%20at%207.06.08%20PM.png)
+![EC2 Details](Imaganes/5.png)
 
 ### 5. Security Groups
-![Security Groups](Imaganes/Screenshot%202025-09-14%20at%207.06.20%20PM.png)
+![Security Groups](Imaganes/6.png)
 
 **Reglas configuradas:**
 - Inbound: Puerto 22 (SSH), Puerto 42000 (App)
 - Outbound: Puerto 80, 443, 42000
 
 ### 6. Aplicación Funcionando en AWS
-![Aplicación AWS](Imaganes/Screenshot%202025-09-14%20at%207.06.40%20PM.png)
+![Aplicación AWS](Imaganes/7.png)
 
 **URL Pública:** `http://ec2-54-234-78-39.compute-1.amazonaws.com:42000/hello`
 
 ### 7. Pruebas de Endpoints
-![Pruebas de Endpoints](Imaganes/Screenshot%202025-09-14%20at%207.08.52%20PM.png)
+![Pruebas de Endpoints](Imaganes/8.png)
 
 **Endpoints probados:**
 - `/` - Página principal
