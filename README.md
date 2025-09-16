@@ -350,4 +350,12 @@ aws ec2 describe-instances --instance-ids i-0040110ac21f818c0
 - GitHub: [@juan-beltran0518](https://github.com/juan-beltran0518)
 - Repository: [ArepSpringDockerApp](https://github.com/juan-beltran0518/ArepSpringDockerApp)
 
+## Link Video Despliegue 
+```
+https://pruebacorreoescuelaingeduco-my.sharepoint.com/:v:/g/personal/juan_brodriguez_mail_escuelaing_edu_co/EediZysikoZKt7jB6urpBMMB-vmv1ZYCPYdUOeyfn1Chlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XjZwdm
+```
 
+## Repositorio Docker Hub
+```
+https://hub.docker.com/repository/docker/juanbeltra/arepfirstprkwebapprepo/general
+```
