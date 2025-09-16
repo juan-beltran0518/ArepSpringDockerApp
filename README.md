@@ -256,7 +256,10 @@ volumes:
 
 ### 1. Aplicación Local
 ![Ejecución Local](Imaganes/1.png)
-
+![Ejecución Local](Imaganes/11.png)
+![Ejecución Local](Imaganes/12.png)
+![Ejecución Local](Imaganes/13.png)
+![Ejecución Local](Imaganes/14.png)
 **URL Local:** `http://localhost:4567/hello`
 
 ### 2. Docker Local
@@ -265,38 +268,55 @@ volumes:
 **Comandos utilizados:**
 ```bash
 docker run -d -p 34000:6000 --name firstdockercontainer dockersparkprimer
-docker run -d -p 34001:6000 --name firstdockercontainer2 dockersparkprimer
-docker run -d -p 34002:6000 --name firstdockercontainer3 dockersparkprimer
 ```
 
+![Ejecución Local](Imaganes/3.png)
+
+![Ejecución Local](Imaganes/4.png)
+
+```bash
+docker run -d -p 34001:6000 --name firstdockercontainer2 dockersparkprimer
+```
+![Ejecución Local](Imaganes/5.png)
+
+```bash
+docker run -d -p 34002:6000 --name firstdockercontainer3 dockersparkprimer
+```
+![Ejecución Local](Imaganes/6.png)
+![Ejecución Local](Imaganes/7.png)
+
+
+
 ### 3. Docker Compose
-![Docker Compose](Imaganes/3.png)
+![Docker Compose](Imaganes/8.png)
 
 **Servicios levantados:**
 - Web Service (Puerto 8087)
 - MongoDB Service (Puerto 27017)
 
 ### 4. Despliegue AWS EC2
-![AWS Console](Imaganes/4.png)
+![AWS Console](Imaganes/15.png)
 
 **Configuración de la instancia:**
 
-![EC2 Details](Imaganes/5.png)
+![EC2 Details](Imaganes/16.png)
+![EC2 Details](Imaganes/17.png)
 
 ### 5. Security Groups
-![Security Groups](Imaganes/6.png)
+![Security Groups](Imaganes/21.png)
 
 **Reglas configuradas:**
 - Inbound: Puerto 22 (SSH), Puerto 42000 (App)
 - Outbound: Puerto 80, 443, 42000
 
 ### 6. Aplicación Funcionando en AWS
-![Aplicación AWS](Imaganes/7.png)
+![Aplicación AWS](Imaganes/23.png)
+![Aplicación AWS](Imaganes/22.png)
 
 **URL Pública:** `http://ec2-54-234-78-39.compute-1.amazonaws.com:42000/hello`
 
 ### 7. Pruebas de Endpoints
-![Pruebas de Endpoints](Imaganes/8.png)
+![Aplicación AWS](Imaganes/24.png)
 
 **Endpoints probados:**
 - `/` - Página principal
