@@ -255,12 +255,12 @@ volumes:
 ## Resultados del Despliegue
 
 ### 1. Aplicación Local
-[INSERTAR_IMAGEN_EJECUCION_LOCAL]
+![Ejecución Local](Imaganes/1.png)
 
 **URL Local:** `http://localhost:4567/hello`
 
 ### 2. Docker Local
-[INSERTAR_IMAGEN_DOCKER_LOCAL]
+![Docker Local](Imaganes/2.png)
 
 **Comandos utilizados:**
 ```bash
@@ -270,33 +270,33 @@ docker run -d -p 34002:6000 --name firstdockercontainer3 dockersparkprimer
 ```
 
 ### 3. Docker Compose
-[INSERTAR_IMAGEN_DOCKER_COMPOSE]
+![Docker Compose](Imaganes/3.png)
 
 **Servicios levantados:**
 - Web Service (Puerto 8087)
 - MongoDB Service (Puerto 27017)
 
 ### 4. Despliegue AWS EC2
-[INSERTAR_IMAGEN_AWS_CONSOLE]
+![AWS Console](Imaganes/4.png)
 
 **Configuración de la instancia:**
 
-[INSERTAR_IMAGEN_EC2_DETAILS]
+![EC2 Details](Imaganes/5.png)
 
 ### 5. Security Groups
-[INSERTAR_IMAGEN_SECURITY_GROUPS]
+![Security Groups](Imaganes/6.png)
 
 **Reglas configuradas:**
 - Inbound: Puerto 22 (SSH), Puerto 42000 (App)
 - Outbound: Puerto 80, 443, 42000
 
 ### 6. Aplicación Funcionando en AWS
-[INSERTAR_IMAGEN_APP_AWS]
+![Aplicación AWS](Imaganes/7.png)
 
 **URL Pública:** `http://ec2-54-234-78-39.compute-1.amazonaws.com:42000/hello`
 
 ### 7. Pruebas de Endpoints
-[INSERTAR_IMAGEN_ENDPOINTS_TESTING]
+![Pruebas de Endpoints](Imaganes/8.png)
 
 **Endpoints probados:**
 - `/` - Página principal
@@ -350,4 +350,12 @@ aws ec2 describe-instances --instance-ids i-0040110ac21f818c0
 - GitHub: [@juan-beltran0518](https://github.com/juan-beltran0518)
 - Repository: [ArepSpringDockerApp](https://github.com/juan-beltran0518/ArepSpringDockerApp)
 
+## Link Video Despliegue 
+```
+https://pruebacorreoescuelaingeduco-my.sharepoint.com/:v:/g/personal/juan_brodriguez_mail_escuelaing_edu_co/EediZysikoZKt7jB6urpBMMB-vmv1ZYCPYdUOeyfn1Chlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XjZwdm
+```
 
+## Repositorio Docker Hub
+```
+https://hub.docker.com/repository/docker/juanbeltra/arepfirstprkwebapprepo/general
+```
